@@ -1,0 +1,56 @@
+.vert {
+    border: 2px solid #00adb5;
+    height: 30rem;
+    align-self: center;
+  } 
+
+  .signupbody >div >h2{
+    font-size: 40px !important;
+    margin-bottom: 10%;
+    margin-top: -10% !important;
+  }
+
+  .margintop{
+    margin-top: 15%;
+  } 
+ 
+
+  .google{
+    border-radius: 10px !important;
+    border: 3px solid #00adb5 !important; 
+    margin-top: 5%;
+    font-size: 1.05rem !important; 
+    background-color: #fff !important;
+    color: #00adb5 !important;  
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10% 10px 10% !important; 
+  }
+
+  .centerBtn {
+    display: flex;
+    justify-content: center !important;
+  }
+ 
+  .texts{
+    padding-left: 10px;
+  }
+
+  .signupbody{
+  background-color: white;
+  padding: 12% 5% 0% 10% !important;  
+  font-family: Montserrat !important;
+  margin-right: -5% !important; 
+  }
+
+  @media (max-width: 990px) {
+    .loginImage {
+      display: none !important;
+    } 
+    .signupbody { 
+        margin-top: 5.5rem;
+    }  
+  }
+  
